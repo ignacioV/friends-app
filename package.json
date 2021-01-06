@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
@@ -17,6 +21,7 @@
     "babel-loader": "^8.2.2",
     "html-webpack-plugin": "^4.5.1",
     "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"
   }
 }
